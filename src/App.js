@@ -13,22 +13,21 @@ const App = () => {
     return (
         <AppProvider>
             <div className='container'>
-                <h1 className='mt-3'>Company's Budget Allocation</h1>
-                    <div className='row mt-3'>
-                        <div className='col-sm'>
-                            <Budget />   
-                        </div>
-                        <div className='col-sm'>
-                            <Remaining />  
-                        </div>
-                        <div className='col-sm'>
-                            <ExpenseTotal />  
-                        </div>
-                       
-                        <ExpenseList />  
-                        <AllocationForm />
-
+                <h1 className='my-4'>Company's Budget Allocation</h1>
+                <div className='row mb-4'>
+                    <div className='col-md-3'>
+                        <Budget />   
+                    </div>
+                    <div className='col-md-3'>
+                        <Remaining />  
+                    </div>
+                    <div className='col-md-3'>
+                        <ExpenseTotal />  
+                    </div>
                 </div>
+
+                <ExpenseList />  
+                <AllocationForm />
             </div>
         </AppProvider>
     );
