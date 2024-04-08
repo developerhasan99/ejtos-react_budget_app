@@ -68,7 +68,7 @@ const AllocationForm = (props) => {
             </div>
 
             <div className='input-group' style={{maxWidth: 250}}>
-                <label className="input-group-text" htmlFor="cost">Cost</label>
+                <label className="input-group-text" htmlFor="cost">£</label>
                 <input
                     className='form-control'
                     required='required'
