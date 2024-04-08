@@ -33,7 +33,6 @@ const Budget = () => {
 
     }
 
-
     return (
         <div className='alert alert-secondary d-flex gap-2 align-items-center mb-0'>
             <span>Budget: </span>
