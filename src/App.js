@@ -1,5 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 import { AppProvider } from './context/AppContext';
 
 //Code to import Budget.js

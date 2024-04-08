@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react';
 import { AppContext } from '../context/AppContext';
 
 const AllocationForm = (props) => {
-    const { dispatch,remaining  } = useContext(AppContext);
+    const { dispatch,remaining,currency  } = useContext(AppContext);
 
     const [name, setName] = useState('');
     const [cost, setCost] = useState('');
@@ -68,7 +68,7 @@ const AllocationForm = (props) => {
             </div>
 
             <div className='input-group' style={{maxWidth: 250}}>
-                <label className="input-group-text" htmlFor="cost">£</label>
+                <label className="input-group-text" htmlFor="cost">{currency}</label>
                 <input
                     className='form-control'
                     required='required'
